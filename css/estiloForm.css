@@ -13,7 +13,7 @@ label {
     font-weight: bold;/* Deixa o texto em negrito */
 }
 
-input[type=email], [type=password], [type=text], select {
+input[type=email], [type=password], [type=text], select, textarea {
     width: 100%; /* Define largura */
     padding: 12px 20px;/*Define espaçamento */
     margin: 8px 0; /*Define margem */
@@ -21,6 +21,7 @@ input[type=email], [type=password], [type=text], select {
     border: 1px solid #ccc; /*Define bordas  */
     border-radius: 4px; /* Bordas arrendondadas */
     box-sizing: border-box; /*Limita o tamanho */
+    resize: none; /* Define redimensionamento como nenhum */
 }
 
 button[type=submit] {
@@ -36,4 +37,15 @@ button[type=submit] {
 
 button[type=submit]:hover {
     background-color: limegreen;
+}
+
+input[type="file"]{
+    width: 40%; /* Define a largura do elemento a ser estilizado */
+    background-color: green; /* Define a cor do elemento */
+    color: white; /* Define a cor do texto do elemento */
+    padding: 14px 20px; /* Define espaçamentos X e Y */
+    margin: 8px 0; /* Define margens X e Y */
+    border: none; /* Remove bordas */
+    border-radius: 4px; /* Define arredondamento das bordas */
+    cursor: pointer; /* Altera o cursor do mouse */
 }
