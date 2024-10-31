@@ -1,6 +1,4 @@
 * {
-    margin: 0; /* Define margens como 0 */
-    padding: 0; /* Define espaçamentos como 0 */
     box-sizing: border-box; /* Inclui bordas e padding na largura e altura */
 }
 
